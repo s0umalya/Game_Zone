@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #5372f0;
+}
+
+.container {
+  height: 60vh;
+  width: 30vw;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.container h2 {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.content .word{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    font-weight: 500;    
+    margin: 2rem;
+}
+
+.content .details{
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.content .hint{
+    margin-bottom: 0.5rem;
+}
+
+.content input{
+    width: 100%;
+    height: 5vh;
+    padding: 0 1rem;
+    font-size: 1rem;
+    border: 1px solid #aaa;
+    margin: 1rem 0 1rem 0;
+    outline: none;
+}
+
+.content .buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.buttons .prompt-btn{
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.buttons #refresh-btn{
+    background-color: #aaa;
+}
+
+.buttons #check-btn{
+    background-color: #5372f0;
+}
